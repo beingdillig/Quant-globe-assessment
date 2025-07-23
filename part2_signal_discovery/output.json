@@ -1,0 +1,215 @@
+{
+  "strategy_map": {
+    "Straddle": [
+      {
+        "trade_id": "T001",
+        "strategy": "Straddle",
+        "symbol": "NIFTY",
+        "type": "SELL",
+        "instrument": "CE",
+        "strike_price": 19500,
+        "expiry": "2024-07-25",
+        "quantity": 100,
+        "entry_price": 120.5,
+        "exit_price": 100.2,
+        "timestamp": "2024-07-18T09:30:00Z"
+      },
+      {
+        "trade_id": "T002",
+        "strategy": "Straddle",
+        "symbol": "NIFTY",
+        "type": "SELL",
+        "instrument": "PE",
+        "strike_price": 19500,
+        "expiry": "2024-07-25",
+        "quantity": 100,
+        "entry_price": 110.5,
+        "exit_price": 95.0,
+        "timestamp": "2024-07-18T09:35:00Z"
+      },
+      {
+        "trade_id": "T011",
+        "strategy": "Straddle",
+        "symbol": "BANKNIFTY",
+        "type": "SELL",
+        "instrument": "CE",
+        "strike_price": 49000,
+        "expiry": "2024-07-25",
+        "quantity": 100,
+        "entry_price": 110,
+        "exit_price": 95,
+        "timestamp": "2024-07-18T12:15:00Z"
+      },
+      {
+        "trade_id": "T012",
+        "strategy": "Straddle",
+        "symbol": "BANKNIFTY",
+        "type": "SELL",
+        "instrument": "PE",
+        "strike_price": 49000,
+        "expiry": "2024-07-25",
+        "quantity": 100,
+        "entry_price": 105,
+        "exit_price": 88,
+        "timestamp": "2024-07-18T12:20:00Z"
+      }
+    ],
+    "Momentum": [
+      {
+        "trade_id": "T003",
+        "strategy": "Momentum",
+        "symbol": "BANKNIFTY",
+        "type": "BUY",
+        "instrument": "FUT",
+        "strike_price": null,
+        "expiry": "2024-07-25",
+        "quantity": 25,
+        "entry_price": 49000,
+        "exit_price": 49300,
+        "timestamp": "2024-07-18T10:00:00Z"
+      },
+      {
+        "trade_id": "T008",
+        "strategy": "Momentum",
+        "symbol": "TCS",
+        "type": "BUY",
+        "instrument": "FUT",
+        "strike_price": null,
+        "expiry": "2024-07-25",
+        "quantity": 30,
+        "entry_price": 3650,
+        "exit_price": 3680,
+        "timestamp": "2024-07-18T11:45:00Z"
+      }
+    ],
+    "Mean Reversion": [
+      {
+        "trade_id": "T004",
+        "strategy": "Mean Reversion",
+        "symbol": "RELIANCE",
+        "type": "SELL",
+        "instrument": "FUT",
+        "strike_price": null,
+        "expiry": "2024-07-25",
+        "quantity": 50,
+        "entry_price": 2800,
+        "exit_price": 2825,
+        "timestamp": "2024-07-18T11:00:00Z"
+      },
+      {
+        "trade_id": "T013",
+        "strategy": "Mean Reversion",
+        "symbol": "SBIN",
+        "type": "BUY",
+        "instrument": "FUT",
+        "strike_price": null,
+        "expiry": "2024-07-25",
+        "quantity": 80,
+        "entry_price": 580,
+        "exit_price": 590,
+        "timestamp": "2024-07-18T12:30:00Z"
+      }
+    ],
+    "Breakout": [
+      {
+        "trade_id": "T005",
+        "strategy": "Breakout",
+        "symbol": "INFY",
+        "type": "BUY",
+        "instrument": "FUT",
+        "strike_price": null,
+        "expiry": "2024-07-25",
+        "quantity": 40,
+        "entry_price": 1520,
+        "exit_price": 1555,
+        "timestamp": "2024-07-18T11:15:00Z"
+      },
+      {
+        "trade_id": "T010",
+        "strategy": "Breakout",
+        "symbol": "NIFTY",
+        "type": "BUY",
+        "instrument": "CE",
+        "strike_price": 19700,
+        "expiry": "2024-07-25",
+        "quantity": 75,
+        "entry_price": 95,
+        "exit_price": 120,
+        "timestamp": "2024-07-18T12:10:00Z"
+      }
+    ],
+    "Strangle": [
+      {
+        "trade_id": "T006",
+        "strategy": "Strangle",
+        "symbol": "BANKNIFTY",
+        "type": "SELL",
+        "instrument": "PE",
+        "strike_price": 48200,
+        "expiry": "2024-07-25",
+        "quantity": 50,
+        "entry_price": 125,
+        "exit_price": 100,
+        "timestamp": "2024-07-18T11:30:00Z"
+      },
+      {
+        "trade_id": "T007",
+        "strategy": "Strangle",
+        "symbol": "BANKNIFTY",
+        "type": "SELL",
+        "instrument": "CE",
+        "strike_price": 49500,
+        "expiry": "2024-07-25",
+        "quantity": 50,
+        "entry_price": 135,
+        "exit_price": 110,
+        "timestamp": "2024-07-18T11:32:00Z"
+      }
+    ],
+    "Reversal": [
+      {
+        "trade_id": "T009",
+        "strategy": "Reversal",
+        "symbol": "HDFCBANK",
+        "type": "SELL",
+        "instrument": "FUT",
+        "strike_price": null,
+        "expiry": "2024-07-25",
+        "quantity": 60,
+        "entry_price": 1620,
+        "exit_price": 1605,
+        "timestamp": "2024-07-18T12:00:00Z"
+      },
+      {
+        "trade_id": "T014",
+        "strategy": "Reversal",
+        "symbol": "ITC",
+        "type": "SELL",
+        "instrument": "FUT",
+        "strike_price": null,
+        "expiry": "2024-07-25",
+        "quantity": 150,
+        "entry_price": 450,
+        "exit_price": 440,
+        "timestamp": "2024-07-18T12:45:00Z"
+      }
+    ]
+  },
+  "trade_pnl": {
+    "T001": 2029.9999999999998,
+    "T002": 1550.0,
+    "T011": 1500,
+    "T012": 1700,
+    "T003": 7500,
+    "T008": 900,
+    "T004": -1250,
+    "T013": 800,
+    "T005": 1400,
+    "T010": 1875,
+    "T006": 1250,
+    "T007": 1250,
+    "T009": 900,
+    "T014": 1500
+  },
+  "summary": "Based on the provided trade data grouped by strategy and PnL per trade, let's analyze and summarize the signals, risks, and performance:\n\n### Signals:\n1. **Straddle Strategy**:\n    - This involves selling both Call (CE) and Put (PE) options.\n    - Symbols: NIFTY, BANKNIFTY\n    - PnL: Positive (Total: 2029.999 + 1550 + 1500 + 1700 = 6780)\n      - NIFTY: CE (T001) and PE (T002) - Total PnL: 3579.999\n      - BANKNIFTY: CE (T011) and PE (T012) - Total PnL: 3200\n    - Signal: Straddle strategy appears profitable, indicating market neutrality expecting low volatility.\n\n2. **Momentum Strategy**:\n    - Involves buying futures with an expectation that the price will rise.\n    - Symbols: BANKNIFTY, TCS\n    - PnL: Positive (Total: 7500 + 900 = 8400)\n      - BANKNIFTY: FUT (T003) - PnL: 7500\n      - TCS: FUT (T008) - PnL: 900\n    - Signal: Momentum strategy is highly profitable, indicating a strong directional move.\n\n3. **Mean Reversion Strategy**:\n    - Involves trades expecting prices to revert to a mean.\n    - Symbols: RELIANCE, SBIN\n    - PnL: Mixed (Total: -1250 + 800 = -450)\n      - RELIANCE: FUT (T004) - PnL: -1250\n      - SBIN: FUT (T013) - PnL: 800\n    - Signal: Mean reversion has mixed results, with a net negative PnL, suggesting difficulty in achieving mean reversion.\n\n4. **Breakout Strategy**:\n    - Involves buying assets expecting to capitalize on a breakout.\n    - Symbols: INFY, NIFTY\n    - PnL: Positive (Total: 1400 + 1875 = 3275)\n      - INFY: FUT (T005) - PnL: 1400\n      - NIFTY: CE (T010) - PnL: 1875\n    - Signal: Breakout strategy is profitable, indicating successful identification of breakout points.\n\n5. **Strangle Strategy**:\n    - Involves selling off-center Call and Put options.\n    - Symbol: BANKNIFTY\n    - PnL: Positive (Total: 1250 + 1250 = 2500)\n      - PE (T006): PnL: 1250\n      - CE (T007): PnL: 1250\n    - Signal: Strangle strategy is profitable, suggesting the underlying stability of the asset.\n\n6. **Reversal Strategy**:\n    - Involves trades expecting a price reversal.\n    - Symbols: HDFCBANK, ITC\n    - PnL: Positive (Total: 900 + 1500 = 2400)\n      - HDFCBANK: FUT (T009) - PnL: 900\n      - ITC: FUT (T014) - PnL: 1500\n    - Signal: Reversal strategy is profitable, indicating successful identification of reversal points.\n\n### Risks:\n1. **Market Volatility**: \n   - Straddle and Strangle strategies are based on market volatility which can increase risk if the market moves directionally.\n\n2. **Mean Reversion**:\n   - The negative PnL indicates higher risk in identifying mean reversion points inaccurately.\n\n3. **Directional Trades**:\n   - Momentum and Breakout strategies show strong results, but they rely on trends continuing, meaning they're vulnerable to sudden market reversals.\n\n4. **Liquidity and Slippage**:\n   - For futures trades, risks include liquidity issues and slippage affecting the entry and exit prices.\n\n### Performance:\n1. **Overall PnL**:\n   - Total PnL of all trades combined is significantly positive, indicating overall profitable performance across strategies.\n\n2. **Profitable Strategies**:\n   - Momentum (PnL: 8400), Straddle (PnL: 6780), Breakout (PnL: 3275), Strangle (PnL: 2500), Reversal (PnL: 2400).\n\n3. **Underperforming Strategies**:\n   - Mean Reversion (PnL: -450) shows a negative performance, indicating more risks and challenges in this strategy.\n\n4. **Overall Strategy Diversification**:\n   - The diversification of strategies seems effective with most showing positive results, reducing overall risk and improving portfolio performance.\n\n### Summary:\nThe trade data indicates strong performance across multiple strategies, with Momentum and Straddle being the top-performing strategies. Most strategies show positive results, with the exception of Mean Reversion which has mixed performance. The risk is inherent in market volatility and reliance on accurate timing, but the data suggests well-chosen strategies with favorable outcomes. Diversification plays a key role in managing risks, leading to an impressive overall PnL."
+}
